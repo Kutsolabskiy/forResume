@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="C:/Users/OhuevshiyZmey/IdeaProjects/randomTesting(failed)">
+    <classes>
+      <class name="tests.essential.NavigationTest">
+        <methods>
+          <include name="stopDriver"/>
+          <include name="loudHomePage"/>
+          <include name="setupDriver"/>
+          <include name="testDrawingsNavigation" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- tests.essential.NavigationTest -->
+      <class name="tests.integers.IntegerGeneratorTest">
+        <methods>
+          <include name="stopDriver"/>
+          <include name="VerifyGenerationAmountColumnOnSimpleMode" invocation-numbers="0 1 2 3"/>
+          <include name="setupDriver"/>
+        </methods>
+      </class> <!-- tests.integers.IntegerGeneratorTest -->
+    </classes>
+  </test> <!-- C:/Users/OhuevshiyZmey/IdeaProjects/randomTesting(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
